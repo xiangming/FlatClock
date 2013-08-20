@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">	
+	<title>时 钟</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<link rel="icon" href="http://xiguabaobao.com/favicon.ico">
+    <link rel="shortcut icon" href="http://xiguabaobao.com/favicon.ico">
+	<link href="css/style.css" rel="stylesheet">
+    <script src="js/modernizr.js"></script>
+	<!--[if lte IE 8]><style>.main{display: none;} .support-note .note-ie{display: block;}</style><![endif]-->
+</head>
+<body>
+    <!-- xiguabaobao.com top bar -->
+	<div class="top-bar">
+        <span class="left">
+            <a href="#">
+                <strong>&laquo; Previous Demo: </strong>The iPad
+            </a>
+        </span>
+        <a href="http://xiguabaobao.com">
+            xiguabaobao.com
+        </a>
+        <span class="right">
+            <a href="#">
+                <strong>Back to the article</strong>
+            </a>
+        </span>
+        <div class="clearfix"></div>
+	</div><!-- / xiguabaobao.com top bar -->
+
+    <div class="container">
+        <header>
+            <h1>The Clock</h1>
+            <h6 class="subheader">使用DOM操控CSS3属性transform：rotate()制作的漂亮时钟</h6>
+
+            <div class="support-note"><!-- let's check browser support with modernizr -->
+                <span class="no-csstransforms">CSS transforms are not supported in your browser</span>
+                <!--<span class="no-csstransitions">CSS transitions are not supported in your browser</span>-->
+                <span class="note-ie">Sorry, only modern browsers.</span>
+            </div>
+
+        </header>
+
+        <section class="main marginTop20">
+            <ul id="clock">
+                <li id="hour"></li>
+                <li id="min"></li>
+                <li id="sec"></li>
+            </ul>
+        </section>
+
+    </div>
+	
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+	<!-- script for google analytics -->
+	<script>
+		var _gaq=[['_setAccount','UA-40091127-1'],['_trackPageview']];(function(a,b){var c=a.createElement(b),d=a.getElementsByTagName(b)[0];c.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";d.parentNode.insertBefore(c,d)})(document,"script");
+	</script>	
+</body>
+</html>
