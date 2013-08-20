@@ -31,7 +31,7 @@
 		}
 	}
 	//为DOM增加insertAfter方法
-	//参数newElement：	 将要插入的元素
+	//参数newElement：	将要插入的元素
 	//参数targetElement：目标元素
 	function insertAfter(newElement, targetElement) {
 		var parent = targetElement.parentNode;

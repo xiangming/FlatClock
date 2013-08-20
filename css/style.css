@@ -61,6 +61,7 @@
     }
     .container {max-width: 96%; margin: 0 auto;padding: 2%;}
     .container header {text-align: center;}
+    .container section {margin-top: 20px;}
     .top-bar {font-size:11px;text-align:center;text-transform:uppercase;position:static;line-height: 24px;background: #ffffff;box-shadow: 1px 0 2px rgba(0,0,0,0.2);}
     .top-bar a {padding:0 10px;display:inline-block;letter-spacing:1px;}
     .support-note span{
@@ -87,7 +88,7 @@
         height: 234px;
         width: 234px;
         display: block;
-        background: url("../img/clockFace.svg") center no-repeat;
+        background: url('https://dl.dropboxusercontent.com/u/13526976/clock_wid/clockFace.svg') 5% center no-repeat;
     }
 
     #sec, #min, #hour {
@@ -99,17 +100,17 @@
     }
 
     #sec {
-        background: url("../img/sec.svg");
+        background: url("https://dl.dropboxusercontent.com/u/13526976/clock_wid/sec.svg");
         z-index: 3;
     }
 
     #min {
-        background: url("../img/min.svg");
+        background: url("https://dl.dropboxusercontent.com/u/13526976/clock_wid/min.svg");
         z-index: 2;
     }
 
     #hour {
-        background: url("../img/hour.svg");
+        background: url("https://dl.dropboxusercontent.com/u/13526976/clock_wid/hour.svg");
         z-index: 1;
     }
 
