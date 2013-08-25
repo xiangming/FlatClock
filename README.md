@@ -15,9 +15,11 @@ Author
 Thanks
 ------
 [MVBen](http://dribbble.com/shots/1145537-Plug-In1) for the beautiful SVG files.
+
 [Codrops](http://tympanus.net/codrops) for the nice and slim top-bar.
 
 License
 -------
 Free to use under the MIT license.
+
 http://www.opensource.org/licenses/mit-license.php
