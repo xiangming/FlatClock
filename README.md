@@ -8,7 +8,7 @@ http://xiguabaobao.com/demo/FlatClock
 
 Author
 ------
-[Jason Xiang](http://github.com/webappsniper)
+[Jason Xiang](http://github.com/xiangming)
 
 + http://xiguabaobao.com
 
