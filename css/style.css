@@ -88,7 +88,7 @@
         height: 234px;
         width: 234px;
         display: block;
-        background: url('https://dl.dropboxusercontent.com/u/13526976/clock_wid/clockFace.svg') 5% center no-repeat;
+        background: url('../img/clockFace.svg') 5% center no-repeat;
     }
 
     #sec, #min, #hour {
@@ -100,17 +100,17 @@
     }
 
     #sec {
-        background: url("https://dl.dropboxusercontent.com/u/13526976/clock_wid/sec.svg");
+        background: url("../img/sec.svg");
         z-index: 3;
     }
 
     #min {
-        background: url("https://dl.dropboxusercontent.com/u/13526976/clock_wid/min.svg");
+        background: url("../img/min.svg");
         z-index: 2;
     }
 
     #hour {
-        background: url("https://dl.dropboxusercontent.com/u/13526976/clock_wid/hour.svg");
+        background: url("../img/hour.svg");
         z-index: 1;
     }
 
